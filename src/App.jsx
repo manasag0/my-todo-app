@@ -5,7 +5,13 @@ function App() {
 
   return (
     <>
-  <h1>Hello World!!</h1>
+ 
+  <div className="container">
+  <h1>What to do?</h1>
+  <input type='text' placeholder='do it..!!' id='todos' />
+
+<button id='adbtn'>+</button>
+  </div>
     </> 
   )
 }
